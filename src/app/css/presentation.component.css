@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+
+.main {
+  background-color: #212121;
+}
+
+.container {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.presentation {
+  color: #11b1fb;
+  text-align: center;
+  width: 50%;
+}
+.presentation h1, .presentation h3 {
+  margin: 0;
+}
