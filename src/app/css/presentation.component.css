@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-  margin-top: 2rem;
+  margin: 2rem 2rem 3rem 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,4 +20,21 @@ body {
 }
 .presentation h1, .presentation h3 {
   margin: 0;
+}
+.presentation h1 {
+  font-size: 2.25rem;
+  margin-bottom: 3rem;
+}
+.presentation h1 #monNom {
+  font-weight: bold;
+  color: #11b1d3;
+}
+.presentation h3 {
+  font-size: 1.6rem;
+  font-style: italic;
+  margin-bottom: 0.7rem;
+  color: #11b1d3;
+}
+.presentation p {
+  font-size: 1rem;
 }

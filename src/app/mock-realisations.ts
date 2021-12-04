@@ -11,13 +11,13 @@ export const REALISATIONS: Realisation[] = [
   {
     nomProjet: 'MyShop',
     desc: 'Projet Final - Technique d\'intégration web',
-    framework: '',
+    framework: 'None',
     link: 'https://github.com/MaxMarquis/MyShop',
     fictif: false
   },
   {
     nomProjet: 'Application Voyage (En Dev)',
-    desc: 'Peojet Application Voyage en Angular',
+    desc: 'Projet Application Voyage en Angular',
     framework: 'Angular',
     link: 'https://github.com/MaxMarquis/appVoyages',
     fictif: false

@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Realisation } from '../realisation';
+import { faGithubSquare } from '@fortawesome/free-brands-svg-icons'
 
 @Component({
   selector: 'app-petite-realisation',
@@ -7,6 +8,8 @@ import { Realisation } from '../realisation';
   styleUrls: ['./petite-realisation.component.sass']
 })
 export class PetiteRealisationComponent implements OnInit {
+  faGithubSquare = faGithubSquare;
+
   @Input() realisation: Realisation =
     {
       nomProjet: '',

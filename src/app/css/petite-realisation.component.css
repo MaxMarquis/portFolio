@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+}
+
+.main {
+  background-color: #212121;
+}
+
+.card {
+  border-radius: 50px;
+  text-align: center;
+  width: 45rem;
+  margin-bottom: 2rem;
+  background-color: #dadada;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.sutitle {
+  font-style: italic;
+}
+
+#faGithubSquare {
+  color: #11b1fb;
+  font-size: 1.6rem;
+}
+
+p {
+  font-size: 1rem;
+}
