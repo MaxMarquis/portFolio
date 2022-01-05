@@ -1,14 +1,31 @@
 <mat-toolbar class="navbar">
   <span id="titre">Maxim Marquis</span>
   <span class="spacer"></span>
-  <a id="cv" class="icons" download="Maxim_Marquis" href="../../maxim_marquis.pdf">
+  <a id="cv" class="icons menu" download="Maxim_Marquis" href="../../maxim_marquis.pdf">
     <fa-icon [icon]="faDownload"></fa-icon> Mon CV
   </a>
-  <a class="icons" href="https://www.linkedin.com/in/maximmarquis
+  <a class="icons menu" href="https://www.linkedin.com/in/maximmarquis
     " target="blank">
     <fa-icon [icon]="faLinkedin" size='lg'></fa-icon>
   </a>
-  <a class="icons" href="https://github.com/MaxMarquis" target="blank">
+  <a class="icons menu" href="https://github.com/MaxMarquis" target="blank">
     <fa-icon [icon]="faGithub" size='lg'></fa-icon>
   </a>
+  <!-- Mon Menu Hamburger -->
+  <button class="icons hamburger" mat-button [matMenuTriggerFor]="menu">
+    <fa-icon [icon]="faBars" size="lg"></fa-icon>
+  </button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item><a id="cv" class="icons" download="Maxim_Marquis" href="../../maxim_marquis.pdf">
+        <fa-icon [icon]="faDownload"></fa-icon> Mon CV
+      </a></button>
+    <button mat-menu-item><a class="icons" href="https://www.linkedin.com/in/maximmarquis
+      " target="blank">
+        <fa-icon [icon]="faLinkedin" size='lg'></fa-icon>
+      </a></button>
+    <button mat-menu-item><a class="icons" href="https://github.com/MaxMarquis" target="blank">
+        <fa-icon [icon]="faGithub" size='lg'></fa-icon>
+      </a></button>
+  </mat-menu>
+  <!-- Fin Menu Hamburger -->
 </mat-toolbar>

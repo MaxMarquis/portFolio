@@ -37,3 +37,17 @@ body {
   text-decoration: none;
   padding-right: 1rem;
 }
+
+.hamburger {
+  display: none;
+}
+
+@media (max-width: 414px) {
+  .hamburger {
+    display: inline-block;
+  }
+
+  .menu {
+    display: none;
+  }
+}

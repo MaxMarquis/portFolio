@@ -15,13 +15,23 @@
   h1
     font-size: 2.25rem
     margin-bottom: 3rem
+    line-height: 2.4rem
     #monNom
       font-weight: bold
-      color: rgb(17, 177, 211)
+      color: $secColor
   h3
     font-size: 1.6rem
     font-style: italic
     margin-bottom: 0.7rem
-    color: rgb(17, 177, 211)
+    color: $secColor
   p
     font-size: 1rem
+
+@media (max-width: $breakpoint-tablet)
+  .presentation
+    width: 100%
+  p
+    width: 75%
+    text-align: center
+    margin-left: auto
+    margin-right: auto

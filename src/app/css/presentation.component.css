@@ -24,6 +24,7 @@ body {
 .presentation h1 {
   font-size: 2.25rem;
   margin-bottom: 3rem;
+  line-height: 2.4rem;
 }
 .presentation h1 #monNom {
   font-weight: bold;
@@ -37,4 +38,17 @@ body {
 }
 .presentation p {
   font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .presentation {
+    width: 100%;
+  }
+
+  p {
+    width: 75%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
