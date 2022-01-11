@@ -23,6 +23,13 @@ export const REALISATIONS: Realisation[] = [
     fictif: false
   },
   {
+    nomProjet: 'PortFolio',
+    desc: 'Mon portfolio réalisé en angular',
+    framework: 'Angular',
+    link: 'https://github.com/MaxMarquis/portFolio',
+    fictif: false
+  },
+  {
     nomProjet: 'Projet 1',
     desc: 'Fake Projet 1',
     framework: 'Javascript',
