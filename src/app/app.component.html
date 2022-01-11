@@ -1,8 +1,8 @@
 <app-navbar></app-navbar>
 <app-presentation></app-presentation>
-<div class="realisations">
+<div class="realisations" *ngIf="realisations">
   <ng-container *ngFor='let realisation of realisations'>
-    <app-petite-realisation [realisation]='realisation'></app-petite-realisation>
+    <app-petite-realisation *ngIf="realisation.fictif !== true" [realisation]='realisation'></app-petite-realisation>
   </ng-container>
 </div>
 
